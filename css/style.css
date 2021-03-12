@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* STYLE HEADER FOOTER  */
+header,footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 255, 0.501);
+}
+
+/* STYLE CSS. Header */
+header form{
+    margin: 10px 0px;
+}
+
+/* STYLE CSS: Main  */
+main{
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.049);
+}
+
+#films{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.box{
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.097);
+}
+
+.box img {
+    width: 200px;
+}
+
+.box:hover{
+    background-color: rgba(0, 0, 255, 0.522);
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* STYLE CSS: Box in footer  */
+.box-icons{
+    margin: 10px 0px;
+}
+
+.box-icons i{
+    color: rgb(0, 0, 255);
+    font-size: 40px;
+    margin-right: 8px;
+}
+
+.box-icons i:hover{
+    cursor: pointer;
+    color: wheat;
+}
